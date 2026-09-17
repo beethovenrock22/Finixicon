@@ -42,7 +42,8 @@ spending_tool = {
 @app.get("/")
 def home():
     return {
-        "message": "Finixicon API is running"
+        "message": "Finixicon API is running",
+        "version": "1.1"
     }
 
 
